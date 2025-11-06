@@ -1,0 +1,106 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #171a51;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  z-index: 1000;
+}
+
+/* Lado izquierdo */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  width: 70px;
+  height: 70px;
+  transition: transform 0.2s ease;
+}
+
+.footer-logo img:hover {
+  transform: scale(1.05);
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+}
+
+/* Lado derecho */
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+/* Botones */
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-buttons a {
+  text-decoration: none;
+}
+
+.footer-buttons button {
+  width: 220px;
+  height: 40px;
+  background: linear-gradient(90deg, #00ffcc 0%, #5d6bff 100%);
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.footer-buttons button:hover {
+  transform: scale(1.05);
+}
+
+/* Redes sociales */
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-socials a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-icon {
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-icon:hover {
+  color: #00ffcc;
+  transform: scale(1.1);
+}

@@ -1,0 +1,75 @@
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: #171a51;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 45px;
+  border: 2px solid #00ffcc;
+  border-radius: 25px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.header-search input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.header-search input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header-search button {
+  background: none;
+  border: none;
+  color: #00ffcc;
+  font-size: 20px;
+  width: 50px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header-icons .icon {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.header-icons .icon:hover {
+  color: #00ffcc;
+}
